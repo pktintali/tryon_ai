@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:hive/hive.dart';
+import 'package:tryon_ai/controllers/feedback_controller.dart';
+import 'package:tryon_ai/pages/Home/home_page.dart';
+import 'package:tryon_ai/pages/onboarding/simple_onboarding_page.dart';
+import 'package:tryon_ai/pages/onboarding/avatar_config_page.dart';
+import 'package:tryon_ai/pages/setting/setting_page.dart';
+import 'package:tryon_ai/pages/support/feedback_page.dart';
+import 'package:tryon_ai/pages/support/support_page.dart';
+import 'package:tryon_ai/pages/tab/tab_page.dart';
+import 'package:tryon_ai/routes/routes_name.dart';
+import 'package:tryon_ai/utils/analytics_navigation_observer.dart';
+import 'package:tryon_ai/utils/constants.dart';
+import 'package:tryon_ai/utils/extensions.dart';
+import 'package:provider/provider.dart';
+import '../pages/auth/auth_page.dart';
+import '../pages/mytryons/mytryons_page.dart';
+import '../pages/tryon/shared_item_preview_page.dart';
+import '../pages/tryon/tryon_result_page.dart';
+
+part 'router.dart';
